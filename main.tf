@@ -11,7 +11,7 @@ module "db" {
   identifier = "glmoodle"
 
   engine            = "mysql"
-  engine_version    = "5.7.19"
+  engine_version    = "8.0.19"
   instance_class    = "db.t2.micro"
   allocated_storage = 2
 
