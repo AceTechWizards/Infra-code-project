@@ -1,5 +1,5 @@
 resource "aws_instance" "Moodle Application Server" {
-        ami = "ami-0173ab411957a93dd"
+        ami = "ami-09d95fab7fff3776c"
         instance_type = "t2.micro"
         tags = {
                 Name = "Moodle Application Server"
